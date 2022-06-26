@@ -12,7 +12,7 @@ abstract class Consts {
     CharacterInfo(
         idx: 0,
         name: '꼬미',
-        description: '꼬미입니다. 3번 점프할 수 있습니다',
+        description: '3번 점프할 수 있습니다',
         selectorImagePath: 'assets/images/kkomi-default-stand.gif',
         onSelectorImagePath: 'assets/images/kkomi-default-on-select.gif',
         spriteImageLeftPath: 'kkomi-default-left.png',
@@ -21,7 +21,7 @@ abstract class Consts {
     CharacterInfo(
         idx: 1,
         name: '악마 꼬미',
-        description: '악마 꼬미입니다. 잠시 공중에 떠있을 수 있습니다.',
+        description: '잠시 공중에 떠있을 수 있습니다.',
         selectorImagePath: 'assets/images/kkomi-devil-stand.gif',
         onSelectorImagePath: 'assets/images/kkomi-devil-on-select.gif',
         spriteImageLeftPath: 'kkomi-devil-left.png',

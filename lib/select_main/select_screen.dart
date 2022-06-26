@@ -40,13 +40,13 @@ class SelectScreen extends GetView<SelectController> {
                         description: currentInfo.description,
                         characterImage: Image.asset(
                           currentInfo.selectorImagePath,
-                          width: min(size.width - 100, size.height / 2),
-                          height: min(size.width - 100, size.height / 2),
+                          width: min(size.width - 100, size.height / 2 - 100),
+                          height: min(size.width - 100, size.height / 2 - 120),
                         ),
                         onSelectCharacterImage: Image.asset(
                           currentInfo.onSelectorImagePath,
-                          width: min(size.width - 100, size.height / 2),
-                          height: min(size.width - 100, size.height / 2),
+                          width: min(size.width - 100, size.height / 2 - 100),
+                          height: min(size.width - 100, size.height / 2 - 120),
                         ),
                       ),
                     );
@@ -138,7 +138,10 @@ class CharacterBox extends GetView<SelectController> {
                     child: Container(
                       width: characterImage.width,
                       padding: const EdgeInsets.all(8),
-                      child: Text('$name\n$description'),
+                      child: Text(
+                        '[$name] $description',
+                        style: const TextStyle(fontSize: 11),
+                      ),
                     ),
                   ),
                 ),

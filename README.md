@@ -12,3 +12,4 @@ Get the code for the Trex game from https://examples.flame-engine.org/#/ and sta
 
 No code cleanup.
 
+Some code has been modified for embedding in github blog.

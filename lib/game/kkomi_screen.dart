@@ -52,7 +52,7 @@ class KkomiScreen extends GetView<KkomiGameController> {
                         children: [
                           CustomTextButton(
                             text: '다시 시작',
-                            fontSize: 40,
+                            fontSize: 30,
                             onTap: () {
                               kkomiGame.restart();
                             },
@@ -62,7 +62,7 @@ class KkomiScreen extends GetView<KkomiGameController> {
                           ),
                           CustomTextButton(
                             text: '메인으로',
-                            fontSize: 40,
+                            fontSize: 32,
                             onTap: () {
                               Get.back();
                             },

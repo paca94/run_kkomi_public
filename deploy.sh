@@ -1,1 +1,1 @@
-flutter build web --pwa-strategy offline-first --release
+flutter build web --pwa-strategy offline-first --release --base-href /assets/kkomi_run/
