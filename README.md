@@ -1,6 +1,6 @@
 # run_kkomi
 
-[Game Play Link](https://jihwankim.github.io/flutter/Flutter%EB%A1%9C-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/#%EA%B2%8C%EC%9E%84)
+[Game Play Link](https://paca94.github.io/flutter/Flutter%EB%A1%9C-%EA%B2%8C%EC%9E%84-%EB%A7%8C%EB%93%A4%EA%B8%B0/#%EA%B2%8C%EC%9E%84)
 
 ## *Some of the included assets were purchased for a fee and should not be used.*
 
